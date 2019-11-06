@@ -1,0 +1,255 @@
+  /* 공통 요소 시작 */
+  * {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* 공통 요소 끝 */
+
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 1px solid gray;
+  }
+  .sidenav_wrap{
+    width:280px;
+    margin:0 auto;
+  }
+  .sidenav_wrap a p{
+    text-decoration: none;
+  }
+  /* 헤더 시작 */
+  .head_wrap {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .clearfix {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  header {
+    height: 45px;
+    background-color: gray;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .menu li {
+    float: left;
+  }
+
+  .menu a {
+    line-height: 75px;
+    color: white;
+    padding: 0 15px;
+    display: block;
+  }
+  .main-menu {
+  	list-style: none;
+    padding-top:30px;
+  	margin-bottom: 35px;
+    width:280px;
+  }
+  .main-menu li {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .main-menu li a {
+  	display: inline-block;
+  	font-size: 24px;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	color: #323232;
+  	margin-bottom: 14px;
+  	position: relative;
+  }
+
+  .main-menu li.active a {
+  	border-bottom: 2px solid #000000;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  #img_sec {
+  width: 100%;
+  height: 200px;
+  display: table;
+  }
+
+  #img_sec .img_sec1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+.sidenav a:hover {
+  color: blue;
+}
+
+.sidenav select {
+  padding: 6px 8px 6px 16px;
+}
+
+.sidenav form {
+  padding: 6px 8px 6px 16px;
+}
+
+
+  #tit_sel {
+  width: 100%;
+  height: 30px;
+  display: table;
+  }
+
+  #tit_sel .tit_sel1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  }
+
+  #main_sel {
+  width: 100%;
+  height: 60px;
+  display: table;
+  }
+
+  #main_sel .sel1 {
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  }
+
+  #main_sel .sel2 {
+  width: 70%;
+  vertical-align: middle;
+  display: table-cell
+  }
+
+  #main_sel .sel3 {
+  width: 100%;
+  vertical-align: middle;
+  text-align: middle;
+  border: 1px solid black;
+  display: table-cell;
+  }
+
+  #rem_sel {
+  width: 100%;
+  height: 30px;
+  display: table;
+  }
+
+  #rem_sel .rem_sel1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  }
+
+  #rem_sel .rem_sel1 p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  }
+
+  input[type=submit] {
+  background-color: #0693cd;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size:16px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 10px;
+  margin:10px 10px 0 22px;
+  width: 200px;
+  vertical-align:middle;
+  text-align:center;
+  }
+  select {
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+  background: url('https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg') no-repeat 95% 50%;
+  border: 1px solid #999;
+  border-radius: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
+  select::-ms-expand {
+  display: none;
+  }
+
+  .copyright {
+  	position: fixed;
+  	height: 45px;
+  	width: 280px;
+  	left: 0;
+  	bottom: 0;
+  	background-color: white;
+  	display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+  	padding-top: 20px;
+  	font-size: 10px;
+  	font-weight: 700;
+  	color: #c0c0c0;
+  	text-transform: uppercase;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+      width: 200px;
+    }
+
+    .sidenav a {
+      font-size: 18px;
+    }
+
+    .sidenav img {
+      width: 100px;
+    }
+
+    .main {
+      margin-left: 200px;
+      /* Same as the width of the sidenav */
+    }
+  }
+
+
