@@ -13,12 +13,21 @@
 그리고 봉사활동을 찾기 위해 소요되는 시간을 대폭 줄일 수가 있습니다.
 ```
 
-### Using Google Maps API
 ### Dependencies
 * Python 2.7+
+* Django
 * Selenium
 * requests
 * pandas
 * googlemaps
 * BeautifulSoup
 * Chrome Webdriver
+
+### Using Google Maps API
+### Website
+
+* HTML5, CSS3
+* d3.js
+* gmaps.js
+* code.js
+
